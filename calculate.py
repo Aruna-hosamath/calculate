@@ -1,6 +1,6 @@
 import sys
 
-num = int(input("Enter the number: "))
+num = int(sys.argv[1])
 
 square = num * num
 cube = num * num * num
